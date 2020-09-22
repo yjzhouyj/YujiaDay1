@@ -45,3 +45,6 @@ def splitevenodd(A):
 # 'I mean, think about music. Music is all about repetition and patterns. If you didn’t have repetition in music, it would all just be noise.'
 
 # 8. 按照数字大小顺序排列 ["1","11","3","22","32","4","2","201"]
+list=["1","11","3","22","32","4","2","201"]
+list.sort()
+print(list)
