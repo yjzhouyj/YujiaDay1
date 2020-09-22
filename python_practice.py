@@ -29,6 +29,17 @@ print(new)
 # 5. 用户指定一个数列，可以将1-10内数字英文单词变换成相应数字， 例如 [one, three, two, five, six] -> [1, 3, 2, 5, 6]
 
 # 6. 将给定数组里的数，分成奇数和偶数两个数列，分别打印出来。例如 [1,3,4,5,7,8,9,11,20] -> [1,3,5,7,9,11] [4,8,20]
+def splitevenodd(A):
+  even=[]
+  odd=[]
+  for i in A:
+    if (i%2==0):
+      even.append(i)
+    else:
+      odd.append(i)
+   
+  print(even)
+  print(odd)
 #
 # 7. 给定一段话，找出最高频的那个单词。例子中的 music.
 # 'I mean, think about music. Music is all about repetition and patterns. If you didn’t have repetition in music, it would all just be noise.'
